@@ -1,0 +1,44 @@
+# Core LangChain (aligned versions)
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-community==0.2.19
+langchain-text-splitters==0.2.4
+
+# Providers
+langchain-groq==0.1.6
+langchain-huggingface==0.0.3
+
+# Embeddings / ML
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4
+numpy>=1.24,<2.0
+scipy>=1.10,<1.12
+
+# PDF + loaders
+pypdf
+pymupdf
+unstructured
+
+# Utilities
+python-dotenv
+pandas
+duckdb
+validators
+
+# Optional tools
+wikipedia
+arxiv
+duckduckgo_search==5.3.1b1
+youtube-transcript-api
+pytube
+
+# Web / parsing
+beautifulsoup4
+bs4
+
+# Streamlit
+streamlit
+
+# Misc
+huggingface_hub
+ipykernel
